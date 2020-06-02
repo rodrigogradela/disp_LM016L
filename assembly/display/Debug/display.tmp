@@ -1,0 +1,41 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega32"</DEVICE>
+ <WORKING_DIR>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc</DIR>
+  <DIR>D:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc\m32def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\Debug\display.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>display.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>display.map</FILE>
+  <FILE>display.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <strt><FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</FILE><LINE>17</LINE></strt>
+  <LCDinit><FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</FILE><LINE>62</LINE></LCDinit>
+  <loop><FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</FILE><LINE>41</LINE></loop>
+  <liga_led><FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</FILE><LINE>48</LINE></liga_led>
+  <msg_ligado><FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</FILE><LINE>52</LINE></msg_ligado>
+  <dsplystr><FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</FILE><LINE>78</LINE></dsplystr>
+  <mesg2><FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</FILE><LINE>124</LINE></mesg2>
+  <con><FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</FILE><LINE>60</LINE></con>
+  <cmndwrt><FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</FILE><LINE>89</LINE></cmndwrt>
+  <mesg><FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</FILE><LINE>123</LINE></mesg>
+  <check><FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</FILE><LINE>87</LINE></check>
+  <datawrt><FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</FILE><LINE>98</LINE></datawrt>
+  <delay><FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</FILE><LINE>108</LINE></delay>
+  <a1><FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</FILE><LINE>112</LINE></a1>
+  <a2><FILE>C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm</FILE><LINE>113</LINE></a2>
+ </LABELS>
+</ASSEMBLER_INFO>
