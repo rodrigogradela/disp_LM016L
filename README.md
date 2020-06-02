@@ -20,11 +20,11 @@ Para utilizar, o software e o circuito deve-se instalar os programas listados ab
 
 ## Programas para desenvolvimento
 
-Proteus 8 - elaboração do esquema eletrico
-Atmel Studio 7 - elaboração codigo assembly e compilador avr32
+* Proteus 8 - elaboração do esquema eletrico
+* Atmel Studio 7 - elaboração codigo assembly e compilador avr32
 
-https://www.labcenter.com/downloads/ Proteus
-https://www.microchip.com/mplab/avr-support/atmel-studio-7 - Atmel Studio 7
+* https://www.labcenter.com/downloads/ Proteus
+* https://www.microchip.com/mplab/avr-support/atmel-studio-7 - Atmel Studio 7
 
 ## Componentes Utilizados
 
@@ -47,12 +47,12 @@ https://www.microchip.com/mplab/avr-support/atmel-studio-7 - Atmel Studio 7
 
 ## Participantes
 
-Rodrigo Gradela – rodrigo_gradela@hotmail.com
-Gustavo Ferrara - guataulo@gmail.com
-Vinicius do Carmo - vinicius.carmo18@outlook.com
-Marcelo Patricio - marcelinho.patricio2@gmail.com
+* Rodrigo Gradela – rodrigo_gradela@hotmail.com
+* Gustavo Ferrara - guataulo@gmail.com
+* Vinicius do Carmo - vinicius.carmo18@outlook.com
+* Marcelo Patricio - marcelinho.patricio2@gmail.com
 
-Trabalho Acadêmico
+* Trabalho Acadêmico
 https://github.com/rodrigogradela/disp_LM016L - Rodrigo Gradela
 
 ## Contribuição
