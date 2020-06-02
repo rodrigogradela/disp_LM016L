@@ -1,4 +1,4 @@
-# disp_LM016L
+
 ******************************************************************************
 Projeto Final - Arquitetura de Hardware
 Prof° Sergio Schina
