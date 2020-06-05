@@ -16,7 +16,7 @@ ATmega32
 
 
 ## Uso
-Para utilizar, o software e o circuito deve-se instalar os programas listados abaixa:
+Para utilizar o software e o circuito, deve-se instalar os programas listados abaixo:
 
 ## Programas para desenvolvimento
 
