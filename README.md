@@ -28,17 +28,17 @@ Para utilizar o software e o circuito, deve-se instalar os programas listados ab
 
 ## Componentes Utilizados
 
-* 2x capactior de 32 uf
+* 2x capactior de 32 uf.
    
-* 01 x crystal 
+* 01 x crystal .
    
-* MicroControlador ATmega32
+* MicroControlador ATmega32.
     
-* 1 x Resistor 30r
+* 1 x Resistor 30r.
     `
-* 1 x motor dc 2v
+* 1 x motor dc 3v.
 
-* 1 x Switch
+* 1 x Switch.
 
 * 1 x Display LM016L.
  
