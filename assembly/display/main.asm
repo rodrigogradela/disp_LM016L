@@ -42,9 +42,9 @@ ldi r17,0x80  ;carrega 80h no registrador auxiliar 16
  
  
  loop:
-	sbis PIND,PD6  ;bot„o solto?
-	rjmp liga_led    ;n„o, ent„o liga o led
-	cbi PORTD,PD7  ;sim, ent„o desliga o led
+	sbis PIND,PD6  ;bot√£o solto?
+	rjmp liga_led    ;n√£o, ent√£o liga o led
+	cbi PORTD,PD7  ;sim, ent√£o desliga o led
 	rjmp strt      ;desvia para loop
 
  
@@ -108,7 +108,7 @@ call dsplystr
  cbi portb, en
  ret
 
- delay:
+ delay:             ;delay de 2 ms
  push r16
  push r17
  ldi r16, 0xff
