@@ -4,8 +4,8 @@
 ; Created: 01/06/2020 17:11:56
 ; Author : Rodrigo Gradela
 ;           Gustavo Ferrara
-;		   Marcelo Patricio
-;		   Vinicius do Carmo
+;	    Marcelo Patricio
+;           Vinicius do Carmo
 ;
 
 
@@ -42,9 +42,9 @@ ldi r17,0x80  ;carrega 80h no registrador auxiliar 16
  
  
  loop:
-	sbis PIND,PD6  ;bot„o solto?
-	rjmp liga_led    ;n„o, ent„o liga o led
-	cbi PORTD,PD7  ;sim, ent„o desliga o led
+	sbis PIND,PD6  ;bot√£o solto?
+	rjmp liga_led    ;n√£o, ent√£o liga o led
+	cbi PORTD,PD7  ;sim, ent√£o desliga o led
 	rjmp strt      ;desvia para loop
 
  
