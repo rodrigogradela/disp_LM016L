@@ -4,7 +4,7 @@ Project "display.asmproj" (default targets):
 Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
 Target "CoreBuild" in file "D:\Program Files (x86)\Atmel\Studio\7.0\Vs\Assembler.targets" from project "C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\display.asmproj" (target "Build" depends on it):
 	Task "RunAssemblerTask"
-		D:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\avrasm2.exe -fI -o "display.hex"  -m "display.map"  -l "display.lss"  -S "display.tmp"  -W+ie -I"D:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc"  -im32def.inc -d "C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\Debug\display.obj"  "C:\Users\Rodrigo\Documents\Atmel Studio\7.0\display\display\main.asm"  -I "D:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include" 
+		
 		AVRASM: AVR macro assembler 2.2.7 (build 69 Jul 26 2017 16:25:06)
 		Copyright (C) 1995-2017 ATMEL Corporation
 		[builtin](2): Including file 'D:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc\m32def.inc'
