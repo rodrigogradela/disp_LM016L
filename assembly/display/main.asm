@@ -108,7 +108,7 @@ call dsplystr
  cbi portb, en
  ret
 
- delay:
+ delay:             ;delay de 2 ms
  push r16
  push r17
  ldi r16, 0xff
