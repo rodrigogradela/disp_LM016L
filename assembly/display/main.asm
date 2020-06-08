@@ -3,9 +3,9 @@
 ;
 ; Created: 01/06/2020 17:11:56
 ; Author : Rodrigo Gradela
-;           Gustavo Ferrara
-;	    Marcelo Patricio
-;           Vinicius do Carmo
+;          Gustavo Ferrara
+;	   Marcelo Patricio
+;          Vinicius do Carmo
 ;
 
 
@@ -33,30 +33,30 @@ ldi r16, 0x00
 out portb, r16
 out portc, r16
 
-ldi r17,0x80  ;carrega 80h no registrador auxiliar 16
-	out DDRD,r17  ;estou configurando o PORTD7 como saida
-	ldi r17,0x40  ;vou carregar 40h no registrador auxiliar 16
-	out PORTD,r17 ;inicializo o P07 em LOW e habilito P06 como pull-up
+ldi r17,0x80  ;Carrega 80h no registrador auxiliar 16
+	out DDRD,r17  ;Estou configurando o PORTD7 como saida
+	ldi r17,0x40  ;Vou carregar 40h no registrador auxiliar 16
+	out PORTD,r17 ;Inicializo o P07 em LOW e habilito P06 como pull-up
   call LCDinit
 
  
  
  loop:
-	sbis PIND,PD6  ;botão solto?
-	rjmp liga_led    ;não, então liga o led
-	cbi PORTD,PD7  ;sim, então desliga o led
-	rjmp strt      ;desvia para loop
+	sbis PIND,PD6  ;Botão solto?
+	rjmp liga_led    ;Não, então liga o led
+	cbi PORTD,PD7  ;Sim, então desliga o led
+	rjmp strt      ;Desvia para loop
 
  
 	liga_led:
-	sbi PORTD,PD7   ; liga led
-	rjmp msg_ligado ; muda mensagem para ligado
+	sbi PORTD,PD7   ; Liga led
+	rjmp msg_ligado ; Muda mensagem para ligado
 	
     msg_ligado:
 	 call LCDinit
 call dsplystr
- ldi zh,high(mesg2<<1)
- ldi zl,low (mesg2<<1)
+ ldi zh,high(mesg2<<1)	; Carrega imediatamente do zh para o high
+ ldi zl,low (mesg2<<1)	; Carrega imediatamente do zh para o low
  rjmp loop
 
 
@@ -64,24 +64,24 @@ call dsplystr
  rjmp con
  LCDinit:
 
- ldi r16, 0x01
+ ldi r16, 0x01	; Carregando o registrador r16
+ call cmndwrt	;  Chamando a função cmndwrt do LCD
+ ldi r16, 0x06	; Carregando o registrador r16 em 0x06
  call cmndwrt
- ldi r16, 0x06
+ ldi r16,0x38	 ; Carregando o registrador r16 em 0x38
  call cmndwrt
- ldi r16,0x38
- call cmndwrt
- ldi r16, 0x38
+ ldi r16, 0x38	 ; Carregando novamente o registrador r16 como 0x38
  call cmndwrt
  ldi r16, 0x0c
  call cmndwrt
- call dsplystr
- ldi zh,high(mesg<<1)
- ldi zl,low (mesg<<1)
+ call dsplystr	; Chama a função do display
+ ldi zh,high(mesg<<1)	; Carrega zh para high
+ ldi zl,low (mesg<<1)	; Carrega zh para low
  ret
  dsplystr:
  clr r0
  cp r16, r0
- lpm r16,z+
+ lpm r16,z+	; Carrega a memoria r16 do z
  breq check
  call datawrt
  rjmp dsplystr
@@ -90,10 +90,10 @@ call dsplystr
  check:
  ret
  cmndwrt:
- cbi portb, en
- cbi portb, rs
+ cbi portb, en	;Limpa registrador com a porta en
+ cbi portb, rs	;Limpa registrador com a porta rs
  cbi portb, rw
- out portc,r16
+ out portc,r16	;Configura registrador r16 como saida da porta C
  sbi portb, en
  call delay
  cbi portb, en
