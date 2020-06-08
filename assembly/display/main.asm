@@ -5,7 +5,7 @@
 ; Author : Rodrigo Gradela
 ;          Gustavo Ferrara
 ;	   Marcelo Patricio
-;          Vinicius do Carmo
+;          Vinícius do Carmo
 ;
 
 
@@ -34,16 +34,16 @@ out portb, r16
 out portc, r16
 
 ldi r17,0x80  ;Carrega 80h no registrador auxiliar 16
-	out DDRD,r17  ;Estou configurando o PORTD7 como saida
-	ldi r17,0x40  ;Vou carregar 40h no registrador auxiliar 16
-	out PORTD,r17 ;Inicializo o P07 em LOW e habilito P06 como pull-up
+	out DDRD,r17  ;Configurando o PORTD7 como saida
+	ldi r17,0x40  ;Carregando 40h no registrador auxiliar 16
+	out PORTD,r17 ;Inicializando P07 em LOW e habilito P06 como pull-up
   call LCDinit
 
  
  
  loop:
-	sbis PIND,PD6  ;Botão solto?
-	rjmp liga_led    ;Não, então liga o led
+	sbis PIND,PD6  ;Botão está solto?
+	rjmp liga_led  ;Não, então liga o led
 	cbi PORTD,PD7  ;Sim, então desliga o led
 	rjmp strt      ;Desvia para loop
 
