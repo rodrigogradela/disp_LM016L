@@ -1,5 +1,5 @@
 # ProjetoFinal_Display_LM016L
-> Projeto controla um motor dc e informa em um display se o mesmo está ligado ou não.
+> Neste projeto é controlado um motor DC e através de um display é informado se o motor está ligado ou desligado.
 
 
 
