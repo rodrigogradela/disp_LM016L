@@ -3,8 +3,8 @@
 
 
 
-Projeto consiste na criação de um circuito eletrônico gerenciando por um micro controlador avr ATMEGA32,
-onde ao acionar uma chave o display LM016L indicara se um motor está em funcionamento ou não. Toda a programação do hardware será em assembly.
+O projeto consiste na criação de um circuito eletrônico gerenciado por um microcontrolador AVR ATMEGA32,
+onde ao acionar uma chave, o display LM016L indicará se o motor está em funcionamento ou não. Toda a programação do hardware será feita em assembly.
 
 ![](project.png)
 
