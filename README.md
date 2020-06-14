@@ -27,10 +27,6 @@ Para utilizar o software e o circuito, deve-se instalar os programas listados ab
 * https://www.microchip.com/mplab/avr-support/atmel-studio-7 - Atmel Studio 7
 
 ## Componentes Utilizados
-
-* 2x capactior de 32 uf.
-   
-* 01 x crystal .
    
 * MicroControlador ATmega32.
     
