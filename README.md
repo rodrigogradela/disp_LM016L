@@ -4,7 +4,7 @@
 
 
 O projeto consiste na criação de um circuito eletrônico gerenciado por um microcontrolador AVR ATMEGA32,
-onde ao acionar uma chave, o display LM016L indicará se o motor está em funcionamento ou não. Toda a programação do hardware será feita em assembly.
+onde ao acionar uma chave, o display LM016L indicará se o motor está em funcionamento ou não. Toda a programação do hardware foi feita em assembly.
 
 ![](project.png)
 
@@ -20,23 +20,23 @@ Para utilizar o software e o circuito, deve-se instalar os programas listados ab
 
 ## Programas para desenvolvimento
 
-* Proteus 8 - elaboração do esquema eletrico
-* Atmel Studio 7 - elaboração codigo assembly e compilador avr32
+* Proteus 8 - elaboração do esquema eletrônico
+* Atmel Studio 7 - elaboração do código assembly e compilador avr32
 
 * https://www.labcenter.com/downloads/ Proteus
 * https://www.microchip.com/mplab/avr-support/atmel-studio-7 - Atmel Studio 7
 
 ## Componentes Utilizados
 
-* 2x capactior de 32 uf.
+* 2 x Capactior de 32 uf.
    
-* 01 x crystal .
+* 1 x Crystal .
    
 * MicroControlador ATmega32.
     
 * 1 x Resistor 30r.
-    `
-* 1 x motor dc 3v.
+    
+* 1 x Motor DC 3v.
 
 * 1 x Switch.
 
@@ -49,7 +49,7 @@ Para utilizar o software e o circuito, deve-se instalar os programas listados ab
 
 * Rodrigo Gradela – rodrigo_gradela@hotmail.com
 * Gustavo Ferrara - guataulo@gmail.com
-* Vinicius do Carmo - vinicius.carmo18@outlook.com
+* Vinícius do Carmo - vinicius.carmo18@outlook.com
 * Marcelo Patricio - marcelinho.patricio2@gmail.com
 
 * Trabalho Acadêmico
