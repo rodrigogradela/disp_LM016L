@@ -62,8 +62,7 @@ ldi zl,low (mesg2<<1)	;carrega imediatamente do zh para o low
 rjmp loop
 
 
-con:
-rjmp con
+
  
 LCDinit: 		;inicialização do display
 ldi r16, 0x01		;carregando o registrador r16
