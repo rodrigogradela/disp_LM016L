@@ -97,17 +97,17 @@ rjmp dsplystr
  cbi portb, rs		;limpa registrador com a porta rs requisito obrigatorio para o uso do display
  cbi portb, rw
  out portc,r16		;configura registrador r16 como saida da porta C
- sbi portb, en 		;defini o bit no registro i/o
+ sbi portb, en 		;define o bit no registro i/o
  call delay
  cbi portb, en
  ret 			;garante o retorno da subrotina
  
  datawrt: 		;configuração da datawart do display
  cbi portb, en 		;limpa bit no registro i/o
- sbi portb, rs 		;defini o bit no registro i/o
+ sbi portb, rs 		;define o bit no registro i/o
  cbi portb, rw
  out portc,r16
- sbi portb, en 		;defini o bit no registro i/o
+ sbi portb, en 		;define o bit no registro i/o
  call delay
  cbi portb, en
  ret 			;garante o retorno da subrotina
