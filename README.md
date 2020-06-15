@@ -36,7 +36,7 @@ Para utilizar o software e o circuito, deve-se instalar os programas listados ab
 
 * 1 x Switch.
 
-* 1 x Display LM016L.
+* 1 x Display LM016L - HITACHI
  
 
     
