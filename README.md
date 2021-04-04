@@ -48,8 +48,7 @@ Para utilizar o software e o circuito, deve-se instalar os programas listados ab
 * Vinicius do Carmo - vinicius.carmo18@outlook.com
 * Marcelo Patricio - marcelinho.patricio2@gmail.com
 
-* Trabalho Acadêmico
-https://github.com/rodrigogradela/disp_LM016L - Rodrigo Gradela
+
 
 ## Contribuição
 
